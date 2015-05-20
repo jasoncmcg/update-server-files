@@ -1,0 +1,5 @@
+{
+	"filePath"   : "\\sharename\\filename.txt",
+	"replaceOld" : "old text to delete",
+	"withNew"    : "new text to replace"
+}

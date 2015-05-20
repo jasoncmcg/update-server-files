@@ -1,0 +1,14 @@
+{
+  "name": "UpdateServerFiles",
+  "version": "0.1.0",
+  "description": "Update files on a collection of servers that reside in the same folder with the same name.",
+  "main": "updateServerFiles.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Magnis",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^0.9.0"
+  }
+}
