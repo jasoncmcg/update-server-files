@@ -17,7 +17,9 @@ That will install the async dependency.
 #How to use
 
 Go into the directory and type:
+```
 node .
+```
 
 That will run the default JS file that is defined by the package.json file.
 
