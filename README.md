@@ -8,9 +8,9 @@ This utility uses [Nodejs](https://nodejs.org).
 After installation, use a commandline in the directory you place this folder.
 Type: 
 
-'''sh
+```
 npm install
-'''
+```
 
 That will install the async dependency.
 
@@ -25,9 +25,9 @@ To update which file and contents that you are updating, open up the config.json
 
 The filepath must look something like this:
 
-'''sh
+```
 "filePath": "\\sharename\\filename.txt"
-'''
+```
 
 This is a relative path. The server name is supplied by the serverList.json file.
 the \\ is there because the \ must be escaped. So, make sure that you excape it, or you will get an error.
@@ -36,10 +36,10 @@ This has only been run in a Windows environment for updating the same file in th
 
 The next two lines are self-documenting:
 
-'''sh
+```
 	"replaceOld"  : "put the old text in here",
 	"withNew"     : "put the next text in here"
-'''
+```
 	
 You put what you want to replace in the replaceOld property and your new text in the withNew property.
 replaceOld withNew
